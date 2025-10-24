@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: AuthServerAPI01
+    env: dotnet
+    region: ohio
+    plan: free
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/RTMAuthServer.dll"
