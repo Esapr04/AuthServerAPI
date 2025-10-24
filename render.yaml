@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: AuthServerAPI01
+    name: AuthServerAPI01.
     env: dotnet
     plan: free
     region: ohio
